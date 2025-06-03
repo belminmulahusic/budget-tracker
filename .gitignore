@@ -1,0 +1,43 @@
+# === Frontend: Next.js / Node.js ===
+
+# node_modules Ordner
+/frontend/node_modules/
+
+# Next.js Build-Output
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.pnp*
+/frontend/.pnpm-debug.log*
+
+# Env-Dateien
+/frontend/.env*
+/frontend/.vercel
+
+# Typescript
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# Sonstiges
+/frontend/.DS_Store
+/frontend/*.pem
+
+# === Backend: Java / Spring Boot ===
+
+# Maven Build-Output
+/backend/target/
+
+# Maven Wrapper
+/backend/mvnw
+/backend/mvnw.cmd
+
+# VSCode
+.vscode/
+
+# Sonstiges
+.DS_Store
